@@ -1,0 +1,34 @@
+{
+  "name": "reddit-donate",
+  "version": "1.0.0",
+  "description": "Donate to charities instead of giving reddit gold",
+  "main": "",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grantrules/reddit-donate.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grantrules/reddit-donate/issues"
+  },
+  "homepage": "https://github.com/grantrules/reddit-donate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "*",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-stream": "^6.1.2",
+    "zip-webpack-plugin": "^4.0.1"
+  }
+}

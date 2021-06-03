@@ -1,0 +1,20 @@
+{
+
+    "manifest_version": 2,
+    "name": "Reddit Donate",
+    "version": "1.0",
+  
+    "description": "Adds a button to give a donation in someone's name, instead of giving reddit gold",
+  
+    "icons": {
+      "48": "icons/border-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.reddit.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  
+  }

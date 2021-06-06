@@ -7,11 +7,11 @@ const env = process.env.NODE_ENV;
 
 module.exports = {
   mode: env || 'development',
-  watch: (env || 'development') === 'development',
+  // watch: (env || 'development') === 'development',
   entry: {
     // app: './js/inject/app.js',
     // index: './js/index.js',
-    config: './js/content.js',
+    content: './js/content.js',
   },
   output: {
     path: path.resolve(__dirname, 'build'),

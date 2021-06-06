@@ -6,7 +6,8 @@
   
     "description": "Adds a button to give a donation in someone's name, instead of giving reddit gold",
     "permissions": [
-      "*://*.reddit.com"
+      "http://*.reddit.com/*",
+      "https://*.reddit.com/*"
     ],
     "browser_action": {
 	    "default_title": "Reddit Donate",

@@ -41,12 +41,14 @@ module.exports = {
     new CleanWebpackPlugin(),
 
     new CopyPlugin({
-	    patterns: [
-      'html/**',
-      'img/**',
-      'manifest.json',
-    ]}),
-    
+      patterns: [
+        'html/**',
+        'img/**',
+        'css/**',
+        'manifest.json',
+      ],
+    }),
+
     new ZipPlugin({
       // OPTIONAL: defaults to the Webpack output path (above)
       // can be relative (to Webpack output path) or absolute

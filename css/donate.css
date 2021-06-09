@@ -1,0 +1,20 @@
+.donate-modal {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+
+}
+
+.donate-modal-hidden {
+    display: none;
+}
+
+.donate-modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}

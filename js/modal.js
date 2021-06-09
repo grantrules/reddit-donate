@@ -4,7 +4,7 @@ div.classList.add('donate-modal', 'donate-modal-hidden');
 const contentDiv = document.createElement('div');
 contentDiv.classList.add('donate-modal-content');
 
-const contentNode = div.appendChild(contentDiv);
+const contentNode = document.querySelector('.donate-modal-content') || div.appendChild(contentDiv);
 
 const modalNode = document.querySelector('.donate-modal') || document.body.appendChild(div);
 

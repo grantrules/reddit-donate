@@ -13,9 +13,15 @@ contentNode.addEventListener('click', (e) => e.stopPropagation());
 
 const isOpen = () => !modalNode.classList.has('donate-modal-hidden');
 
+const toggle = () => modalNode.classList.toggle('donate-modal-hidden');
+
 const open = (content) => {
   contentNode.textContent = content;
-  modalNode.classList.toggle('donate-modal-hidden');
+  toggle();
 };
 
-export { modalNode, isOpen, open };
+const close = toggle;
+
+export {
+  modalNode, isOpen, open, close,
+};
